@@ -1,0 +1,64 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Datasets and data splits
+data/
+datasets/
+
+# Model weights and checkpoints
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Training and experiment artifacts
+runs/
+wandb/
+lightning_logs/
+tensorboard/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.orig

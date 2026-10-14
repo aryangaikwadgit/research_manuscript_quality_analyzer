@@ -1,0 +1,19 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,training_time_seconds,confusion_matrix,classification_report
+Word TF-IDF + Linear SVM,0.6418918918918919,0.5717428929150096,0.5681435623002496,0.5694315150822643,0.06,"[[120, 199], [172, 545]]","              precision    recall  f1-score   support
+
+           0       0.41      0.38      0.39       319
+           1       0.73      0.76      0.75       717
+
+    accuracy                           0.64      1036
+   macro avg       0.57      0.57      0.57      1036
+weighted avg       0.63      0.64      0.64      1036
+"
+Word + Character TF-IDF + Linear SVM,0.6428571428571429,0.5750647794774985,0.5723211045675336,0.5734120359859867,0.28,"[[124, 195], [175, 542]]","              precision    recall  f1-score   support
+
+           0       0.41      0.39      0.40       319
+           1       0.74      0.76      0.75       717
+
+    accuracy                           0.64      1036
+   macro avg       0.58      0.57      0.57      1036
+weighted avg       0.64      0.64      0.64      1036
+"
